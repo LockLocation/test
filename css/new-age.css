@@ -415,7 +415,7 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #77b700	;
+  background-color: #006600;
   border-color: white;
 }
 .btn {
@@ -426,7 +426,7 @@ footer ul li a.active {
 }
 .btn-xl {
   padding: 15px 45px;
-  font-size: 11px;
+  font-size: 17px;
 }
 ::-moz-selection {
   color: white;
