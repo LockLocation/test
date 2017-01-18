@@ -408,7 +408,7 @@ footer ul li a.active {
   color: #000000;
   border-color: white;
   background-color: #006600;
-  border: 1px solid;
+  border: 3px solid;
 }
 .btn-outline:hover,
 .btn-outline:focus,
@@ -426,26 +426,9 @@ footer ul li a.active {
 }
 .btn-xl {
   padding: 15px 45px;
-  font-size: 17px;
+  font-size: 22px;
 }
-::-moz-selection {
-  color: white;
-  text-shadow: none;
-  background: #222222;
-}
-::selection {
-  color: white;
-  text-shadow: none;
-  background: #222222;
-}
-img::selection {
-  color: white;
-  background: transparent;
-}
-img::-moz-selection {
-  color: white;
-  background: transparent;
-}
+
 body {
-  webkit-tap-highlight-color: #222222;
+  webkit-tap-highlight-color: #006600;
 }
