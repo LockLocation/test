@@ -28,11 +28,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52;
+  color: #006600;
 }
 a:hover,
 a:focus {
-  color: #fcbd20;
+  color: #006600;
 }
 hr {
   max-width: 100px;
@@ -57,54 +57,6 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
-}
-.navbar-default {
-  background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
-  letter-spacing: 1px;
-}
-.navbar-default .navbar-header .navbar-brand {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
-  letter-spacing: 1px;
-  color: #fdcc52;
-}
-.navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
-  color: #fcbd20;
-}
-.navbar-default .navbar-header .navbar-toggle {
-  font-size: 12px;
-  color: #222222;
-  padding: 8px 10px;
-}
-.navbar-default .nav > li > a {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 11px;
-}
-.navbar-default .nav > li > a,
-.navbar-default .nav > li > a:focus {
-  color: #222222;
-}
-.navbar-default .nav > li > a:hover,
-.navbar-default .nav > li > a:focus:hover {
-  color: #fdcc52;
-}
-.navbar-default .nav > li.active > a,
-.navbar-default .nav > li.active > a:focus {
-  color: #fdcc52 !important;
-  background-color: transparent;
-}
-.navbar-default .nav > li.active > a:hover,
-.navbar-default .nav > li.active > a:focus:hover {
-  background-color: transparent;
 }
 @media (min-width: 768px) {
   .navbar-default {
