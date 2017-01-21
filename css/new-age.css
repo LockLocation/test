@@ -87,7 +87,7 @@ p {
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #fdcc52;
+    color: #2980b9;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -95,7 +95,7 @@ p {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #2980b9;
   }
 }
 header {
@@ -345,12 +345,12 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #2980b9;
+  background: -webkit-linear-gradient(#2980b9, #fdc539);
+  background: linear-gradient(#2980b9, #fdc539);
 }
 .text-primary {
-  color: #fdcc52;
+  color: #2980b9;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
