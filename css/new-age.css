@@ -405,9 +405,8 @@ footer ul li a.active {
   padding-left: 0;
 }
 .btn-outline {
-  color: #000000;
+  color: white;
   border-color: white;
-  background-color: #006600;
   border: 1px solid;
 }
 .btn-outline:hover,
@@ -415,8 +414,8 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #77b700	;
-  border-color: white;
+  background-color: #fdcc52;
+  border-color: #fdcc52;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
