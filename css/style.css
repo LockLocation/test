@@ -1,0 +1,146 @@
+html{
+  height: 100%;
+}
+body{
+  background-color: #4c825b;
+  margin: 25px 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header{
+  margin: 0px 20px;
+}
+ .pattern-description {
+  margin: 0,auto;
+  display: block;
+}
+
+
+h1{
+  text-align: center;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  margin:0;
+}
+
+h2{
+  letter-spacing: 2px;
+  margin:0;
+}
+
+.navigate-list{
+  padding: 0;
+  margin: 0 ;
+}
+
+.navigate-list li{
+  display: inline;
+  margin-right: 10px;
+}
+.navigate-list img{
+   width: 50px;
+   height: 50px;
+}
+
+.map{
+  height: 100%;
+}
+.pattern{
+  flex: 1;
+}
+.static-img{
+  margin: 20px 0 ;
+  width: 100%;
+  height: 100%;
+}
+
+/* Medium Screens */
+@media all and (min-width: 34.375em) {
+
+
+
+}
+
+.font-style{
+  font-family: cursive;
+
+}
+.font-big{
+  font-size: 30px;
+}
+
+.font-meduim{
+  font-size: 20px;
+}
+
+.font-small{
+  font-size: 14px;
+}
+
+.title-font-shadow{
+  text-shadow: 2px -2px 0 black,
+               3px -3px 0 red;
+}
+
+/*.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #808080;
+  color: #fff;
+  margin: 1em;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  background: #333;
+}
+
+.static-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.title{
+  color: #ffffff;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.title p{
+  color: #ffffff;
+  font-size: 18px;
+  font-style: italic;
+}
+
+
+.map-container {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+}
+.map-container iframe {
+  width: 80%;
+  height: 60%;
+  /* had to specify height/width
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+}
+
+.pattern{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(7, 82, 28, 0.72);
+}
+*/
