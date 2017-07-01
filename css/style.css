@@ -33,7 +33,7 @@ h1{
 .store-image{
   width: 120px;
   height: 40px;
-  margin-top: 10px;
+  margin: 10px 6px;
   margin: auto;
 }
 
@@ -71,7 +71,7 @@ h1{
 .pattern{
   height: 220px;
   width: 220px;
-  margin: 10px auto;
+  margin: 30px auto;
 }
 .static-img{
   margin: 0 0 10px 0  ;
@@ -97,6 +97,8 @@ h1{
 
 .font-meduim{
   font-size: 16px;
+  font-weight: normal;
+
 }
 
 .font-small{
@@ -106,7 +108,7 @@ h1{
 
 .title-font-shadow{
   color: #ffffff;
-  text-shadow: 2px -2px 0 #1a5903,
+  text-shadow: 2px -2px 0 #9E9D24,
                3px -3px 0 #ffffff;
 }
 
@@ -115,8 +117,18 @@ h1{
 }
 
 .boxStyle{
-  flex: 1;
+  height: 100%;
   background-color: rgba(0,0,0,0.3);
   color: #fff;
   text-align: center;
+}
+
+footer{
+  color: #9E9D24;
+  text-align: center;
+  border: 2px solid #9E9D24;
+  position:absolute;
+   bottom:0;
+   padding: 10px 0px;
+   width:100%;
 }
