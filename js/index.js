@@ -54,16 +54,16 @@ function loadApplication() {
      var locklocationRef = document.getElementById('locklocationRef');
 
      wazeRef.onclick = function (){
-       alert(linkToWaze);
+       window.location = intentLoclLocation;
      }
      googleMapRef.onclick = function (){
-       alert(linkToGoogleMap);
+       window.location = intentLoclLocation;
      }
 
     if(isAndroid){
         var intentLoclLocation = "intent://scan?longitude=" +  longitude + "&latitude=" + latitude + "#Intent;scheme=locklocation;package=com.locklocation;end";
         locklocationRef.onclick = function (){
-          alert(intentLoclLocation);
+          window.location = intentLoclLocation;
         }
     }
     else{
