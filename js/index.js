@@ -54,10 +54,10 @@ function loadApplication() {
      var locklocationRef = document.getElementById('locklocationRef');
 
      wazeRef.onclick = function (){
-       document.location.href = wazeRef;
+       document.location.href = linkToWaze;
      }
      googleMapRef.onclick = function (){
-       document.location.href = googleMapRef;
+       document.location.href = linkToGoogleMap;
      }
 
     if(isAndroid){
@@ -65,8 +65,6 @@ function loadApplication() {
         locklocationRef.onclick = function (){
           document.location.href = intentLoclLocation;
         }
-        document.location.href = intentLoclLocation;
-
     }
     else{
       locklocationRef.style.visibility = 'hidden';
