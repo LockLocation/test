@@ -7,7 +7,7 @@ var sw = document.body.clientWidth,
     bp = 550,
     $map = $('.map');
 
-var staticMap = "http://maps.google.com/maps/api/staticmap?center=latitude1,longitude1&zoom=14&size=512x512&markers=size:mid|color:red|label:A|latitude1,longitude1&sensor=false"
+var staticMap = "http://maps.google.com/maps/api/staticmap?center=latitude1,longitude1&zoom=17&size=512x512&markers=size:mid|color:red|label:A|latitude1,longitude1&sensor=false"
 
 var embed =  '<iframe  frameborder="0" scrolling="no"  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCWDi3X7ymVD6q6KD_2FbHbRKrAjAVHBAk&q=latitude1,longitude1&zoom=15"></iframe>';
 var linkToMap;
