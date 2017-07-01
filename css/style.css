@@ -1,0 +1,122 @@
+html{
+  height: 100%;
+}
+body{
+  background-color: rgba(0,0,0,0.8);
+  margin: 25px 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header{
+  margin: 0px 20px;
+}
+ .pattern-description {
+  margin: 0 auto;
+  display: block;
+}
+
+
+h1{
+  text-align: center;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  margin:0;
+}
+.title{
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  text-align: center;
+}
+.store-image{
+  width: 120px;
+  height: 40px;
+  margin-top: 10px;
+  margin: auto;
+}
+
+.pattern-description a{
+  float: right;
+  display: inline;
+}
+
+.subtitle{
+  display: inline;
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.navigate-list{
+  padding: 0;
+  margin: 10px 0 0 0;
+  z-index: 10;
+
+}
+
+.navigate-list li{
+  display: inline;
+  margin-right: 10px;
+}
+.navigate-list img{
+   width: 40px;
+   height: 40px;
+}
+
+.map{
+  height: 100%;
+}
+.pattern{
+  height: 220px;
+  width: 220px;
+  margin: 10px auto;
+}
+.static-img{
+  margin: 0 0 10px 0  ;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Medium Screens */
+@media all and (min-width: 34.375em) {
+
+
+
+}
+
+.font-style{
+  font-family: cursive;
+
+}
+.font-big{
+  font-size: 30px;
+}
+
+.font-meduim{
+  font-size: 16px;
+}
+
+.font-small{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.title-font-shadow{
+  color: #ffffff;
+  text-shadow: 2px -2px 0 #1a5903,
+               3px -3px 0 #ffffff;
+}
+
+.font-app-color{
+  color: #ffffff;
+}
+
+.boxStyle{
+  flex: 1;
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  text-align: center;
+}
