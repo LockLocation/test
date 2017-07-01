@@ -13,31 +13,41 @@
 
     <header class="container">
   		<section class="pattern-description">
-  			<h1 class="font-big title-font-shadow title font-style">Save Location</h1>
-        <h2 class="font-meduim secodary font-style">Yor friend share location with you, you can navigate...</h2>
-  		</section>
+  			<h1 class="font-big title-font-shadow font-style title">Save Location</h1>
+        <a href="https://play.google.com/store/apps/details?id=com.locklocation&hl=en" >
+          <img class="store-image" src="chrome-extension://fopobkcjpoaoeahjicahipajghchhimn/play_badge.png"/>
+        </a>
+        <h4 class="font-small font-app-color subtitle">Your friend share location with you ...</h4>
 
+  		</section>
+  	</header>
+
+      <!--Pattern HTML-->
+      <div id="pattern" class="pattern">
+          <div class="map">
+
+        </div>
+      </div>
+
+    <div class="boxStyle">
+      <h3 class="font-app-color font-small">navigate to the location with:</h3>
       <ul class="navigate-list">
-        <li>
+        <li id="wazeRef">
           <img src="chrome-extension://fopobkcjpoaoeahjicahipajghchhimn/waze-icon.png"/>
         </li>
 
-        <li>
+        <li id="gmRef">
           <img src="chrome-extension://fopobkcjpoaoeahjicahipajghchhimn/google-map-icon.png"/>
         </li>
-        <li>
+        <li id="locklocationRef">
           <img src="chrome-extension://fopobkcjpoaoeahjicahipajghchhimn/ic_launcher.png"/>
         </li>
       </ul>
-
-  	</header>
-
-  <!--Pattern HTML-->
-  <div id="pattern" class="pattern">
-      <div class="map">
-      
     </div>
-  </div>
+
+
+
+
   <!--End Pattern HTML-->
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

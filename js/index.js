@@ -11,24 +11,11 @@ var embed =  '<iframe  frameborder="0" scrolling="no"  src="https://www.google.c
 var linkToMap;
 
 function buildMap() {
-  // if(sw>bp) { //If Large Screen
-  //     if($('.map-container').length < 1) { //If map doesn't already exist
-  //       buildEmbed();
-  //     }
-  // } else {
-  //     if($('.static-img').length < 1) { //If static image doesn't exist
-  //       buildStatic();
-  //     }
-  // }
-
   if($('.static-img').length < 1) { //If static image doesn't exist
         buildStatic();
     }
 };
 
-function buildEmbed() { //Build iframe view
-    $('<div class="map-container"/>').html(embed).appendTo($map);
-};
 
 function buildStatic() { //Build static map
    var mapLink = $('.map-link').attr('href'),
@@ -55,17 +42,32 @@ function loadApplication() {
      embed =  embed.replace(/longitude1/g,longitude);
 
      linkToMap = 'https://maps.google.com/?q=' + latitude + "," + longitude;
-//      var launchLocationImageView = document.getElementById("imageView");
-//     if("Android" == operationSystem){
-// //         launchLocationImageView.src = "https://dl.dropboxusercontent.com/u/17984828/locklocation.%20512x5122%20(1).png";
-//         // var intentMap = "intent://my_host#Intent;scheme=geo:" +  longitude + "," + latitude + "?z=11;action=android.intent.action.VIEW;end";
-//         var intentLoclLocation = "intent://scan?longitude=" +  longitude + "&latitude=" + latitude + "#Intent;scheme=locklocation;package=com.locklocation;end";
-//
-//         launchLocation.href = intentLoclLocation;
-//     }
-//     else{
-//        launchLocation.href = "waze://?ll=" + latitude + "," + longitude + "&navigate=yes";
-//     }
+     var isAndroid = "Android" == operationSystem;
+     var linkToWaze =  "waze://?ll=" + latitude + "," + longitude + "&navigate=yes" ;
+     var linkToGoogleMap = "https://www.google.com/maps/dir/?api=1&q=" + latitude + "," + longitude;
+     var linkGeneralMap = isAndroid ? "" : "" ;
+     var linkToSaveLocatoin = isAndroid ? "" : "" ;
+
+     var wazeRef = document.getElementById('wazeRef');
+     var googleMapRef = document.getElementById('gmRef');
+     var locklocationRef = document.getElementById('locklocationRef');
+
+     wazeRef.onclick = function (){
+       alert(linkToWaze);
+     }
+     googleMapRef.onclick = function (){
+       alert(linkToGoogleMap);
+     }
+
+    if(isAndroid){
+        var intentLoclLocation = "intent://scan?longitude=" +  longitude + "&latitude=" + latitude + "#Intent;scheme=locklocation;package=com.locklocation;end";
+        locklocationRef.onclick = function (){
+          alert(intentLoclLocation);
+        }
+    }
+    else{
+      locklocationRef.style.visibility = 'hidden';
+    }
 
 }
 
