@@ -6,7 +6,9 @@ $(document).ready(function(){
 var sw = document.body.clientWidth,
     bp = 550,
     $map = $('.map');
-var staticMap = "https://maps.google.com/maps/api/staticmap?center=latitude1,longitude1&zoom=13&markers=latitude1,longitude1&size=300x400&sensor=true";
+
+var staticMap = "http://maps.google.com/maps/api/staticmap?center=latitude1,longitude&zoom=14&size=512x512&markers=size:mid|color:red|label:A|latitude1,longitude&sensor=false"
+
 var embed =  '<iframe  frameborder="0" scrolling="no"  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCWDi3X7ymVD6q6KD_2FbHbRKrAjAVHBAk&q=latitude1,longitude1&zoom=15"></iframe>';
 var linkToMap;
 
@@ -26,7 +28,6 @@ function buildStatic() { //Build static map
 $(window).resize(function() {
   sw = document.body.clientWidth;
   buildMap();
-  google.maps.event.trigger(map, "resize");
 });
 
 function loadApplication() {
